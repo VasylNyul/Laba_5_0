@@ -12,9 +12,11 @@
 		1823074C271EBE5E00143DA0 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823074B271EBE5E00143DA0 /* Document.m */; };
 		1823074E271EBE6300143DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1823074D271EBE6300143DA0 /* Assets.xcassets */; };
 		18230751271EBE6300143DA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1823074F271EBE6300143DA0 /* Main.storyboard */; };
-		18230754271EBE6300143DA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18230753271EBE6300143DA0 /* main.m */; };
 		1823075F271EBE6300143DA0 /* Laboratorna_5_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823075E271EBE6300143DA0 /* Laboratorna_5_1Tests.m */; };
 		1823076A271EBE6300143DA0 /* Laboratorna_5_1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18230769271EBE6300143DA0 /* Laboratorna_5_1UITests.m */; };
+		18230779271EBE7F00143DA0 /* LAba_5_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18230777271EBE7F00143DA0 /* LAba_5_1.cpp */; };
+		1823077C271EC3C500143DA0 /* unit-тест.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1823077A271EC3C500143DA0 /* unit-тест.cpp */; };
+		182307812720026200143DA0 /* Source.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1823077F2720026200143DA0 /* Source.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +47,6 @@
 		1823074D271EBE6300143DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18230750271EBE6300143DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18230752271EBE6300143DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18230753271EBE6300143DA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18230755271EBE6300143DA0 /* Laboratorna_5_1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Laboratorna_5_1.entitlements; sourceTree = "<group>"; };
 		1823075A271EBE6300143DA0 /* Laboratorna 5.1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Laboratorna 5.1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1823075E271EBE6300143DA0 /* Laboratorna_5_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Laboratorna_5_1Tests.m; sourceTree = "<group>"; };
@@ -53,6 +54,12 @@
 		18230765271EBE6300143DA0 /* Laboratorna 5.1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Laboratorna 5.1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18230769271EBE6300143DA0 /* Laboratorna_5_1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Laboratorna_5_1UITests.m; sourceTree = "<group>"; };
 		1823076B271EBE6300143DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18230777271EBE7F00143DA0 /* LAba_5_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LAba_5_1.cpp; sourceTree = "<group>"; };
+		18230778271EBE7F00143DA0 /* LAba_5_1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LAba_5_1.hpp; sourceTree = "<group>"; };
+		1823077A271EC3C500143DA0 /* unit-тест.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "unit-тест.cpp"; sourceTree = "<group>"; };
+		1823077B271EC3C500143DA0 /* unit-тест.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "unit-тест.hpp"; sourceTree = "<group>"; };
+		1823077F2720026200143DA0 /* Source.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Source.cpp; sourceTree = "<group>"; };
+		182307802720026200143DA0 /* Source.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Source.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +90,8 @@
 		18230738271EBE5E00143DA0 = {
 			isa = PBXGroup;
 			children = (
+				18230777271EBE7F00143DA0 /* LAba_5_1.cpp */,
+				18230778271EBE7F00143DA0 /* LAba_5_1.hpp */,
 				18230743271EBE5E00143DA0 /* Laboratorna 5.1 */,
 				1823075D271EBE6300143DA0 /* Laboratorna 5.1Tests */,
 				18230768271EBE6300143DA0 /* Laboratorna 5.1UITests */,
@@ -112,8 +121,11 @@
 				1823074D271EBE6300143DA0 /* Assets.xcassets */,
 				1823074F271EBE6300143DA0 /* Main.storyboard */,
 				18230752271EBE6300143DA0 /* Info.plist */,
-				18230753271EBE6300143DA0 /* main.m */,
 				18230755271EBE6300143DA0 /* Laboratorna_5_1.entitlements */,
+				1823077A271EC3C500143DA0 /* unit-тест.cpp */,
+				1823077B271EC3C500143DA0 /* unit-тест.hpp */,
+				1823077F2720026200143DA0 /* Source.cpp */,
+				182307802720026200143DA0 /* Source.hpp */,
 			);
 			path = "Laboratorna 5.1";
 			sourceTree = "<group>";
@@ -265,9 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1823074C271EBE5E00143DA0 /* Document.m in Sources */,
+				18230779271EBE7F00143DA0 /* LAba_5_1.cpp in Sources */,
 				18230749271EBE5E00143DA0 /* ViewController.m in Sources */,
-				18230754271EBE6300143DA0 /* main.m in Sources */,
 				18230746271EBE5E00143DA0 /* AppDelegate.m in Sources */,
+				182307812720026200143DA0 /* Source.cpp in Sources */,
+				1823077C271EC3C500143DA0 /* unit-тест.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,7 +10,7 @@ int main()
  double t, s;
 
    cout << "t = ";cin >> t;
-   cout << "s = ";cin >> s;
+   //cout << "s = ";cin >> s;
     
     double c = (f(1,t*t,s)+f(t,s*s,1))/(1+f(1,t*s,1)*f(1,t*s,1));
     cout << "c = " << c << endl;

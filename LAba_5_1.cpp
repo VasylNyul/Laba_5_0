@@ -17,7 +17,7 @@ int main()
     
     return 0;
 }
-double f(const double a, const double b, const double c) // визначення
+.double f(const double a, const double b, const double c) // визначення
 {
-    return (sin(a*b*c)*sin(a*b*c)/(a*a+b*b+c*c));
+    .return (sin(a*b*c)*sin(a*b*c)/(a*a+b*b+c*c));
 }
